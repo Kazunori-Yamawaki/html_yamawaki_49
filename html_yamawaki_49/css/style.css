@@ -1,0 +1,371 @@
+/* ここから下に記載していく */
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+h2  {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.btn {
+    display: block;
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    font-size:18px;
+    color: white;
+    background-color: #ffd61a;
+    text-decoration: none;
+    transition: background-color .5s;     
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.btn p {    
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*  header */
+header {
+    width: 1200px;
+    height: 120px;
+    background-color: white;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+.header-logo {
+    padding: 20px 0;
+}
+
+.nav-list {
+    float: right;
+    display:flex;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 50px 0;
+    margin: 0 25px 0;
+
+}
+
+header a {
+    font-size: 21px;
+    text-decoration: none;
+}
+
+/* main-visual */
+.main-visual {
+    background: url(../img/mainbg.png) no-repeat center center;
+    background-size: cover;
+    width: 1200px;
+    height: 400px;
+    margin: 120px auto 60px;  
+}
+
+.title-wrapper {
+    padding: 155px 0;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-text {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+/* about */
+.about {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto 60px;
+    padding-top: 120px;
+}
+
+.about-title_1 {
+    color: #ffd61a;
+    margin-bottom: 30px;
+}
+
+.about-title_2 {
+    margin-bottom: 60px;
+}
+
+.about-txt {
+    margin-bottom: 40px;
+}
+
+.about-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.about-photo_item_C {
+    width: 30%;
+}
+
+.about-photo_item_S {
+    width: 20%;
+}
+
+/* course */
+.course {
+    margin-bottom: 60px;
+    padding-top: 120px;
+}
+
+.course-title1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.course-title2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.course-contents {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.course-image {
+    width: 50%;
+}
+
+.course-txt_wrapper {
+    width: 50%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+}
+
+.course-txt_R {
+    width: 480px;
+    padding-left: 50px;
+}
+
+.course-txt_L {
+    width: 480px;
+    margin:0 0 0 auto;
+    padding-right: 50px;
+}
+.couse-txt_title {
+    margin-bottom: 40px;
+}
+
+/* news */
+.news {
+    width: 1200px;
+    margin: 0 auto 60px;
+    padding-top: 120px;
+}
+
+.news-title1 {
+    color: #ffd61a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.news-title2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.news-item {
+    width: 300px;
+    transition: background-color .5s;
+    margin: 0 15px 0;
+}
+
+.news-item:hover {
+    background-color:#CCCCCC;
+}
+
+.news-item a {
+    text-decoration: none;
+}
+
+.news-photo {
+    margin-bottom: 30px;
+}
+
+.news-date {
+    margin-bottom: 24px;
+} 
+
+/* access */
+.access {
+    width: 1200px;
+    background-color: #fafafa;
+    padding: 120px 0 60px;
+    margin: 0 auto;
+}
+
+.access-title1 {
+    text-align: center;
+    margin-bottom: 30px;    
+}
+
+.access-title2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.map {
+    margin-bottom: 60px;
+}
+
+.info-wrapper {
+    width: 500px;
+    margin:0 auto;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.info-t {
+    display: block;
+    width: 25%;
+    height: 20px;
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+.info-d {
+    display: block;
+    width: 75%;
+    height: 20px;
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+/* contact */
+.contact {
+    width: 1200px;
+    margin:0 auto 140px;
+    padding-top: 120px;
+}
+
+.contact-title1{    
+    text-align: center;
+    margin-bottom: 30px;    
+}
+
+.contact-title2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact-txt1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-txt2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.form-inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    margin:0 auto 30px;
+    border-top: solid 2px #bfbfbf;
+}
+
+.form-t {
+    width: 158px;
+    padding: 16px 64px 0 16px;
+    line-height: 1.5;
+    border-right: solid 2px #bfbfbf;
+    border-bottom: solid 2px #bfbfbf;      
+}
+
+.form-d {
+    width: 392px;
+    padding: 8px 0 8px 8px;
+    border-bottom: solid 2px #bfbfbf; 
+}
+
+.form-parts {
+    width: 320px;
+    padding: 8px;
+}
+
+.form-select_t {
+    width: 158px;
+    padding: 12px 64px 0 16px;
+    line-height: 1;
+    border-right: solid 2px #bfbfbf;
+    border-bottom: solid 2px #bfbfbf;    
+}
+
+.form-select_d {
+    width: 340px;
+    padding: 8px;
+}
+
+.motive-item {
+    margin: 12px 0;
+}
+
+input[type*="checkbox"] {
+    margin: 0 10px 0 0;
+}
+
+.btn-submit {
+    border: none;
+}
+
+/* footer */
+footer {
+    width: 1200px;
+    margin:0 auto;
+    background-color: #707070;
+    text-align: center;
+    padding:30px 0;
+}
+
+footer p {
+    color: white;
+}
